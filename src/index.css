@@ -1,0 +1,78 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;500;600;700;800&family=Inter:wght@400;500;600;700;800&display=swap');
+
+:root {
+  font-family: 'Inter', sans-serif;
+  color: #f5f7fb;
+  background: #0b0d12;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  --bg: #0b0d12;
+  --bg-elevated: #121821;
+  --bg-panel: rgba(16, 20, 28, 0.84);
+  --bg-strong: #171d29;
+  --text: #f5f7fb;
+  --muted: #a7b0c0;
+  --accent: #e887a3;
+  --accent-soft: rgba(232, 135, 163, 0.12);
+  --accent-strong: #f4b0c1;
+  --line: rgba(255, 255, 255, 0.1);
+  --shadow: 0 24px 70px rgba(0, 0, 0, 0.38);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  min-width: 320px;
+  min-height: 100vh;
+  background:
+    radial-gradient(circle at top left, rgba(232, 135, 163, 0.12), transparent 30%),
+    radial-gradient(circle at bottom right, rgba(130, 102, 160, 0.12), transparent 22%),
+    var(--bg);
+  color: var(--text);
+}
+
+button,
+input,
+select {
+  font: inherit;
+}
+
+button {
+  cursor: pointer;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+#root {
+  min-height: 100vh;
+}
+
+h1,
+h2,
+h3,
+h4,
+.logo {
+  font-family: 'Barlow Condensed', 'Inter', sans-serif;
+  letter-spacing: -0.04em;
+}
+
