@@ -42,3 +42,9 @@ hosting, configure an equivalent server-side proxy with `CHANNEL3_API_KEY`.
 Use feature branches and pull requests; do not commit directly to `main`.
 Use descriptive Conventional Commit messages such as `feat: add apparel search`
 or `fix: handle missing product images`.
+
+## New Features
+
+- Product filtering by category
+- Product filtering by brand
+- Price range filtering
